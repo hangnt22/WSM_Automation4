@@ -492,7 +492,7 @@ public class WSM_PERSONAL_REQUEST extends WSM {
     void openBrowser() {
         //for Ubuntu System.setProperty("webdriver.chrome.driver", "src/lib/chromedriver");
         //for windown
-        System.setProperty("webdriver.chrome.driver", "src/lib/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/lib/chromedriver");
         driver = new ChromeDriver();
         driver.get(url_WSM);
         wait_TimeOut();
